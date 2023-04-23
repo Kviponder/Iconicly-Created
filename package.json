@@ -1,0 +1,19 @@
+{
+  "name": "iconicly-created",
+  "version": "1.0.0",
+  "description": "An app intended to take user input to generate a small logo, the user will choose up to 3 letters, a color, and a shape",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kviponder/Iconicly-Created.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kviponder/Iconicly-Created/issues"
+  },
+  "homepage": "https://github.com/Kviponder/Iconicly-Created#readme"
+}
