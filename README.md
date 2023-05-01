@@ -50,3 +50,7 @@ To use the app, run the following command:
 ## Walkthrough-Video
 
     Here you can watch a walkthrough video of the application https://drive.google.com/file/d/1JTtQxWJiBme7zgLSGpGO0e_SDoeyX37p/view?usp=sharing
+
+
+## Code Sources
+    I worked with two other students, Will F. and James M. in order to add switch functions to the code. I also used the following sources to help me with the code: my TA's and an old README project.
