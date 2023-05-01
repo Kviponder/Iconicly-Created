@@ -36,7 +36,6 @@ const questions = [
   },
 
   {
-    // work on this to enable a user to either choose a color or enter a hex code
     type: "input",
     name: "color",
     message: "What color would you like your logo to be?",
@@ -78,8 +77,7 @@ ${shapeText}
   });
 } 
 
-//below was taken from readme-generator, can easily be modified to fit our needs
-
+//Write the file to the logo.svg file
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, function (err) {
     // if there's an error, log it, otherwise log a success message
