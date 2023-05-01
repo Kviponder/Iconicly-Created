@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Kviponder/Iconicly-Created/issues"
   },
-  "homepage": "https://github.com/Kviponder/Iconicly-Created#readme"
+  "homepage": "https://github.com/Kviponder/Iconicly-Created#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
 }
