@@ -1,6 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-const {Circle, Square, Triangle} = require("./lib/shapes");
+const { Circle, Square, Triangle } = require("./lib/shapes");
 
 //Prompts questions to be asked to the user and exported to index.js
 const questions = [
@@ -44,8 +44,8 @@ const questions = [
 let shape;
 let shapeText = "";
 
-
 // function to initialize program
+//Collaborated with classmates (Will and James) to get the switch statement to work
 function init() {
   return inquirer.prompt(questions).then((answers) => {
     switch (answers.shape) {
@@ -75,8 +75,9 @@ ${shapeText}
 
     return writeToFile("logo.svg", svgCon);
   });
-} 
+}
 
+//Sourced from readme generator
 //Write the file to the logo.svg file
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, function (err) {
