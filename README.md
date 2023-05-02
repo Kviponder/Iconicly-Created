@@ -1,4 +1,4 @@
-# <img src="ICLogo/IC.svg" alt="Icon" width="70" height="60"> Iconicly Created 
+# <img src="ICLogo/IC.svg" alt="Icon" width="70" height="60"> Iconicly Created <img src="ICLogo/IC.svg" alt="Icon" width="70" height="60">
 
     An app intended to take user input to generate a small logo, the user will choose up to 3 letters, a color, and a shape.
 
