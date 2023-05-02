@@ -21,11 +21,18 @@
       100% { transform: rotate(-360deg); }
     }
     
+   text {
+      mix-blend-mode: difference;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: white;
+      fill: white;
+    }
    
      
   </style>
   <rect x="0" y="0" width="300" height="300" fill="none"/>
-  <circle cx="150" cy="150" r="130" fill="cyan"/>
+  <circle cx="150" cy="150" r="130" fill="cyan" />
+  <path d="M20 150 A130 130 0 0 1 280 150" stroke="black" stroke-width="8" fill="black"/>
   <path d="M130 130 L130 170 L150 150 L170 130 L170 170" fill="#bfbfbf"/>
   <path d="M130 130 L130 170 L150 150 L170 130 L170 170" stroke="#000000" stroke-width="10" fill="none"/>
   <path d="M120 120 L120 180 L150 150 L180 120 L180 180" fill="#bfbfbf"/>
