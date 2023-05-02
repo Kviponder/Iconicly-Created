@@ -3,7 +3,7 @@
 <style>
   path {
       transform-origin: 150px 150px;
-      animation: spin-clockwise 0.4s linear infinite;
+      animation: spin-clockwise 8s linear infinite;
     }
     
     circle {
